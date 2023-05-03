@@ -88,7 +88,16 @@
     --fs-55: 55px;
   }
 }
-
+.html .body {
+  overflow-x: hidden;
+}
+.overflow_X_hidden{
+  overflow-x: hidden;
+}
+.three_cirlces {
+  right: -82px;
+  bottom: 41px;
+}
 .clr_black {
   color: var(--clr-black) !important;
 }
@@ -258,7 +267,11 @@
   outline: 8px solid #fffaf5;
   outline-offset: -8px;
 }
-
+.green_star {
+  left: -36px;
+  top: 30%;
+  z-index: 0;
+}
 .max_w_300 {
   max-width: 316px;
 }
