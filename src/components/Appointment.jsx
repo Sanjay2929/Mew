@@ -12,14 +12,14 @@ const Appointment = () => {
   return (
     <div>
       <section>
-        <Container className="py-5 ">
-          <Row className="align-items-center py-5">
+        <Container className="py--sm-5 ">
+          <Row className="align-items-center py-5 flex-wrap-reverse">
             <Col md={6}>
-              <h3 className="ff_slackey fw_400 fs_45 clr_darkblue pb-4">
+              <h3 className="ff_slackey fw_400 fs_45 clr_darkblue pb-lg-4 pb-2">
                 Lets book a call and stay connected
               </h3>
-              <div className="d-flex align-items-center gap_36 pb-4">
-                <div className="d-flex align-items-center gap_20">
+              <div className="d-flex align-items-center gap_36 pb-4 justify-content-xl-start justify-content-between">
+                <div className="d-flex align-items-center gap_20 ">
                   <svg
                     width="24"
                     height="24"
@@ -62,21 +62,23 @@ const Appointment = () => {
                   </h4>
                 </div>
               </div>
-              <p className="fw_400 fs_16 lh_30 ff_poppins clr_gray py-3">
+              <p className="fw_400 fs_16 lh_30 ff_poppins clr_gray py-lg-3 ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim velit esse cillum dolore eu fugiat nulla pariatur.
               </p>
-              <div className=" d-flex align-items-center gap_29">
+              <div className=" d-flex align-items-lg-center gap_29 flex-lg-row flex-md-column flex-row">
                 <OrangeButton />
                 <div className="d-flex align-items-center ">
-                 <img src={telephone} alt="img" />
-                  <a className="mb-0 fw_500 fs_18 ff_poppins clr_48" href="#">Emergency Call</a>
+                  <img src={telephone} alt="img" />
+                  <a className="mb-0 fw_500 fs_18 ff_poppins clr_48" href="#">
+                    Emergency&nbsp;Call
+                  </a>
                 </div>
               </div>
             </Col>
-            <Col>
-              <div className="ps-5 position-relative">
+            <Col className=" pb-md-0 pb-5">
+              <div className="ps-xl-5 position-relative">
                 <img className="w-100" src={Doctor} alt="img" />
                 <img
                   className="top-0 start-0 position-absolute dotSquare"
