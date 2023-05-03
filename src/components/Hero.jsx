@@ -14,29 +14,30 @@ import daniel from "../assets/img/png/Daniel.png";
 const Hero = () => {
   return (
     <div>
-      <section>
+      <section className=" position-relative pb-4">
+        <div className="  hero_cat_position Cat_width me-5 me-md-0 pb-5 pb-md-0">
+          <div className="position-relative me-4 me-md-0">
+            <img
+              className="w-100 cat_hero"
+              src={cat}
+              alt="img"
+            />
+            <img
+              className=" position-absolute w_58   end-0 bottom-0 hero_dog"
+              src={dog}
+              alt="img"
+            />
+          </div>
+        </div>
         <Container>
-          <Row className="py-5">
-            <Col>
-              <div className="position-relative">
-                <img
-                  className="w-100 position-relative cat_hero"
-                  src={cat}
-                  alt="img"
-                />
-                <img
-                  className=" position-absolute w_65   end-0 bottom-0 hero_dog"
-                  src={dog}
-                  alt="img"
-                />
-              </div>
-            </Col>
+          <Row className="py-sm-5 pt-5">
+            <Col></Col>
             <Col md={7}>
-              <div className="ps-5">
-                <h2 className="fw_400 fs_55 clr_darkblue ff_slackey pb-4 mb-2">
+              <div className="ps-md-5">
+                <h2 className="fw_400 fs_55 clr_darkblue ff_slackey pb-lg-4 mb-lg-2 mb-3">
                   We take care of your pet and help them to grow
                 </h2>
-                <p className="fw_500 fs_16 ff_poppins clr_gray max_w_482 pb-5">
+                <p className="fw_500 fs_16 ff_poppins clr_gray max_w_482 pb-lg-5 mb-3">
                   Best pets are waiting for adoption. Find out the the perfect
                   one you will like it. It’s our promise.
                 </p>
@@ -71,7 +72,7 @@ const Hero = () => {
                     </div>
                   </div>
                 </div>
-                <div className="d-flex align-items-center pt-5">
+                <div className="d-flex align-items-center pt-lg-5 pt-3">
                   <img src={dogFoot} alt="img" />
                   <div>
                     <h3 className="fw_400 fs_20 ff_slackey clr_gray mb-0 lh_30 ">
@@ -85,37 +86,45 @@ const Hero = () => {
               </div>
             </Col>
           </Row>
-          <Row className="align-items-end">
-            <Col md={8}>
-              <Row className="data_orange_linear ps-4 py-3">
-                <Col md={4} className="py-5 d-flex  flex-column">
-                  <h3 className="ff_poppins fw_400 fs_18 mb-3 clr_white">Adopted</h3>
-                  <h4 className="ff_slackey fw_400 fs_35 mb-0 clr_white">2500+</h4>
+          <Row className="align-items-end  pt-4 mt-3">
+            <Col xs={12} md={7}>
+              <Row className="data_orange_linear ps-sm-4 px-2 py-3 ">
+                <Col xs={4} className="py-md-5 py-3 d-flex  flex-column">
+                  <h3 className="ff_poppins fw_400 fs_18 mb-md-3 clr_white">
+                    Adopted
+                  </h3>
+                  <h4 className="ff_slackey fw_400 fs_35 mb-0 clr_white">
+                    2500+
+                  </h4>
                 </Col>
-                <Col md={4} className="py-5 d-flex  flex-column">
-                  <h3 className="ff_poppins fw_400 fs_18 mb-3 clr_white">
+                <Col xs={4} className="py-md-5 py-3 d-flex  flex-column">
+                  <h3 className="ff_poppins fw_400 fs_18 mb-md-3 clr_white">
                     Customers
                   </h3>
-                  <h4 className="ff_slackey fw_400 fs_35 mb-0 clr_white">1850+</h4>
+                  <h4 className="ff_slackey fw_400 fs_35 mb-0 clr_white">
+                    1850+
+                  </h4>
                 </Col>
-                <Col md={4} className="py-5 d-flex  flex-column">
-                  <h3 className="ff_poppins fw_400 fs_18 mb-3 clr_white">
+                <Col xs={4} className="py-md-5 py-3 d-flex  flex-column">
+                  <h3 className="ff_poppins fw_400 fs_18 mb-md-3 clr_white">
                     Testimonials
                   </h3>
-                  <h4 className="ff_slackey fw_400 fs_35 mb-0 clr_white">1300+</h4>
+                  <h4 className="ff_slackey fw_400 fs_35 mb-0 clr_white">
+                    1300+
+                  </h4>
                 </Col>
               </Row>
             </Col>
-            <Col md={4} className="Green_hero_bg pad_31_34">
-              <div>
-                <p className="fw_500 fs_16 ff_poppins clr_white lh_28">
+            <Col md={5} xs={12} className="Green_hero_bg pad_31_34">
+              <div className="px-lg-4">
+                <p className="fw_500 fs_16 ff_poppins clr_white lh_28 mb-lg-3 mb-0">
                   Lorem ipsum dolor sit amet, consectetur ipcing elit, sed do
                   eiusmod tempor incididu ut labore et quis nostrud sed do eius
                   .....
                 </p>
                 <div className="d-flex align-items-center justify-content-between">
                   <div className="w_65">
-                    <hr className="clr_white"/>
+                    <hr className="clr_white" />
                     <h3 className="mb-0 fw_400 fs_18 ff_slackey clr_white">
                       Daniel Kahneman
                     </h3>

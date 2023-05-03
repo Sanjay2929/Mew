@@ -13,11 +13,11 @@ import yellowArrow from "../assets/img/png/yellow_arrow.png";
 import greenArrow from "../assets/img/png/green_arrow.png";
 
 const Services = () => {
-     var settings = {
+     var settings1 = {
        dots: false,
        infinite: true,
        slidesToShow: 4,
-       arrows: true,
+       arrows: false,
       //  nextArrow: ".next",
        pauseOnHover: false,
        cssEase: "linear",
@@ -41,19 +41,19 @@ const Services = () => {
          {
            breakpoint: 992,
            settings: {
-             slidesToShow: 3,
+             slidesToShow: 2.5,
              slidesToScroll: 1,
            },
          },
          {
            breakpoint: 768,
            settings: {
-             slidesToShow: 2,
+             slidesToShow: 1.8,
              slidesToScroll: 1,
            },
          },
          {
-           breakpoint: 576,
+           breakpoint: 500,
            settings: {
              slidesToShow: 1,
              slidesToScroll: 1,
@@ -63,8 +63,8 @@ const Services = () => {
      };
   return (
     <div>
-      <section className="bg_secondary pt-5 overflow-hidden">
-        <Container className="py-5 mt-3">
+      <section className="bg_secondary py-sm-5 overflow-hidden">
+        <Container className="py-5 my-3">
           <div className="d-flex flex-column align-items-center">
             <div className="d-flex justify-content-center align-items-center">
               <img src={dogFoot} alt="img" />
@@ -72,12 +72,12 @@ const Services = () => {
                 Our Services
               </h3>
             </div>
-            <p className=" fw_400 fs_16 ff_poppins clr_gray text-center max_w_482 lh_30 pb-5 mb-0">
+            <p className=" fw_400 fs_16 ff_poppins clr_gray text-center max_w_482 lh_30 pb-sm-5 pb-3 mb-0">
               Best pets are waiting for adoption. Find out the the perfect one
               you will like it. It’s our promise.
             </p>
           </div>
-          <Slider {...settings} className="py-1">
+          <Slider {...settings1} className="py-1">
             <div className="pb-5 d-flex justify-content-center">
               <div className="d-flex flex-column align-items-center  services_slider max_w_250">
                 <img className="mb-3" src={injection} alt="img" />
@@ -123,7 +123,7 @@ const Services = () => {
               </div>
             </div>
           </Slider>
-          <div className="d-flex  pt-4 align-items-center gap_72  services_button">
+          <div className="d-flex  pt-sm-4 align-items-center gap_72  services_button justify-content-center justify-content-md-start">
             <OrangeButton />
             <div  className=" d-flex gap_15 ">
               <img src={redArrow} alt="arrow" />

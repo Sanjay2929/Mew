@@ -18,7 +18,7 @@ const Navbar = () => {
         <Container className="py-3">
           <div className="d-flex align-items-center justify-content-between">
             <h1 className=" ff_slackey fs_27 fw_400 mb-0">Mew</h1>
-            <div onClick={showUl} className="z_3">
+            <div onClick={showUl} className="z_51">
               <h3 className="d-block d-sm-none ">
                 <RiMenu3Fill />
               </h3>

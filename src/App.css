@@ -13,15 +13,15 @@
 
 :root {
   /* Font_Size */
-  --fs-14: 14px;
-  --fs-16: 16px;
-  --fs-18: 18px;
-  --fs-20: 20px;
-  --fs-22: 22px;
-  --fs-27: 27px;
-  --fs-35: 35px;
-  --fs-45: 45px;
-  --fs-55: 55px;
+  --fs-14: 12px;
+  --fs-16: 14px;
+  --fs-18: 13px;
+  --fs-20: 17px;
+  --fs-22: 20px;
+  --fs-27: 22px;
+  --fs-35: 22px;
+  --fs-45: 22px;
+  --fs-55: 25px;
 
   /* COLOR */
   --clr-black: #000000;
@@ -36,28 +36,28 @@
   :root {
     /* Font_Size */
     --fs-14: 14px;
-    --fs-16: 15px;
+    --fs-16: 14px;
     --fs-18: 18px;
     --fs-20: 20px;
     --fs-22: 22px;
     --fs-27: 27px;
     --fs-35: 35px;
-    --fs-45: 45px;
-    --fs-55: 55px;
+    --fs-45: 40px;
+    --fs-55: 30px;
   }
 }
 @media (min-width: 768px) {
   :root {
     /* Font_Size */
     --fs-14: 14px;
-    --fs-16: 16px;
-    --fs-18: 18px;
+    --fs-16: 14px;
+    --fs-18: 16px;
     --fs-20: 20px;
     --fs-22: 22px;
     --fs-27: 27px;
-    --fs-35: 35px;
-    --fs-45: 45px;
-    --fs-55: 55px;
+    --fs-35: 30px;
+    --fs-45: 26px;
+    --fs-55: 31px;
   }
 }
 @media (min-width: 992px) {
@@ -65,7 +65,7 @@
     /* Font_Size */
     --fs-14: 14px;
     --fs-16: 16px;
-    --fs-18: 18px;
+    --fs-18: 17px;
     --fs-20: 20px;
     --fs-22: 22px;
     --fs-27: 27px;
@@ -180,6 +180,9 @@
 .nav li a:hover {
   color: var(--clr-darkblue) !important;
 }
+.z_51 {
+  z-index: 515;
+}
 @media (max-width: 576px) {
   .mobile_screen {
     flex-direction: column;
@@ -190,7 +193,8 @@
     top: 0;
     justify-content: center;
     gap: 55px;
-    /* background-color:; */
+    background-color: var(--clr-bgSecondaary);
+    z-index: 50;
   }
   .naV_0 {
     left: 0;
@@ -222,14 +226,15 @@
   margin-left: -17px;
 }
 .gap_56 {
-  gap: 56px;
+  gap: 6px;
 }
 .caretaker {
-  max-width: 55px;
+  max-width: 40px;
 }
+
 .more7 {
   background: rgba(255, 91, 46, 0.75);
-  padding: 9px 12px 8px 10px;
+  padding: 4px 4px 4px 4px;
   top: 50%;
   left: 50%;
   border-radius: 50%;
@@ -239,39 +244,39 @@
   z-index: 2;
   transform: scale(1.5);
 }
+.gap_20 {
+  gap: 10px;
+}
 
 .cat_hero {
-  left: -100px;
-  transform: scale(1.15);
+  /* transform: scale(1.15); */
   border-radius: 0 29px 29px 0;
 }
 .hero_dog {
-  transform: translateY(40%);
+  transform: translate(25%, 32%);
   border-radius: 30px;
   outline: 8px solid #fffaf5;
   outline-offset: -8px;
 }
+
 .max_w_300 {
   max-width: 316px;
 }
-.w_65 {
-  width: 65%;
+.w_58 {
+  width: 58%;
 }
 .orange_btn_shadow {
   box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
 }
-.lh_30 {
-  line-height: 30px;
-}
 
 .data_orange_linear {
   background: linear-gradient(97.17deg, #ff5d31 2.51%, #ff9f2e 70.22%);
-  border-radius: 34px 0px 0px 10px;
+  border-radius: 34px 34px 0px 00px;
 }
 .Green_hero_bg {
   background: linear-gradient(110.59deg, #009f97 7.32%, #00c8bd 98.68%);
-  border-left: 5px solid #ffefde;
-  border-radius: 40px 40px 10px 0px;
+  border-left: 0;
+  border-radius: 0px 0px 34px 34px;
 }
 .lh_28 {
   line-height: 28px;
@@ -285,25 +290,14 @@
 .clr_48 {
   color: #48496a;
 }
-.gap_20 {
-  gap: 20px;
-}
-.gap_36 {
-  gap: 36px;
-}
-.lh_30 {
-  line-height: 30px;
-}
-.dotSquare {
-  transform: translate(100%, 15%);
-}
+
 .Curl_line {
-  bottom: -11%;
+  bottom: -6%;
   right: 16%;
 }
 .orange_plus {
-  left: 17%;
-  bottom: 4%;
+  left: 6%;
+  bottom: 0%;
 }
 .green_plus {
   top: 15%;
@@ -311,10 +305,6 @@
 }
 .gap_29 {
   gap: 29px;
-}
-
-.lh_30 {
-  line-height: 30px;
 }
 
 .services_slider {
@@ -327,6 +317,9 @@
   color: #f3f3f3;
 }
 
+.Cat_width {
+  max-width: 450px;
+}
 .lh_24 {
   line-height: 24px;
 }
@@ -358,11 +351,292 @@
 }
 .services_button {
   position: relative;
-  left: 50%;
-  transform: translateX(-5%);
+  left: 0;
+  transform: translateX(0);
 }
 .btn-primary svg {
   stroke: var(--clr-orange);
   height: 4em;
   width: 4em;
+}
+
+.z_10 {
+  z-index: 10;
+}
+.lh_55 {
+  line-height: 55px;
+}
+.gap_147 {
+  gap: 24px;
+}
+.br_300 {
+  border-radius: 300px;
+}
+.border_dog {
+  outline: 5px solid #ffefde;
+  outline-offset: 10px;
+}
+/* Facilities Lines */
+.facilites_afterLine::after {
+  content: "";
+  position: absolute;
+  border-bottom: 5px solid #ffefde;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.facilites_beforeLine::before {
+  content: "";
+  position: absolute;
+  border-bottom: 5px solid #ffefde;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+}
+@media (min-width: 576px) {
+  .caretaker {
+    max-width: 55px;
+  }
+  .more7 {
+    background: rgba(255, 91, 46, 0.75);
+    padding: 9px 12px 8px 10px;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (min-width: 768px) {
+  /* Facilities Lines */
+  .facilites_afterLine::after {
+    content: "";
+    position: absolute;
+    border-bottom: 5px solid #ffefde;
+    width: 107%;
+    bottom: -10%;
+    left: 0;
+  }
+  .hero_cat_position {
+    left: 0px;
+    top: 30px;
+    position: absolute;
+  }
+  .facilites_beforeLine::before {
+    content: "";
+    position: absolute;
+    border-bottom: 5px solid #ffefde;
+    width: 109%;
+    bottom: -10%;
+    right: 0;
+  }
+  .facilites_circle::after {
+    content: "";
+    position: absolute;
+    left: -32px;
+    bottom: -23px;
+    width: 26px;
+    height: 25px;
+    background: linear-gradient(
+      145.61deg,
+      rgba(255, 96, 49, 0.6) 15.14%,
+      rgba(249, 168, 14, 0.6) 93.39%
+    );
+    border-radius: 50%;
+    border: 6px solid #ffefde;
+    z-index: 10;
+  }
+  .Curl_line {
+    bottom: -11%;
+    right: 16%;
+  }
+  .data_orange_linear {
+    background: linear-gradient(97.17deg, #ff5d31 2.51%, #ff9f2e 70.22%);
+    border-radius: 34px 0px 0px 10px;
+  }
+  .Green_hero_bg {
+    background: linear-gradient(110.59deg, #009f97 7.32%, #00c8bd 98.68%);
+    border-left: 5px solid #ffefde;
+    border-radius: 40px 40px 10px 0px;
+  }
+  .facilites_circle1::before {
+    content: "";
+    position: absolute;
+    right: -24px;
+    bottom: -23px;
+    width: 26px;
+    height: 25px;
+    background: linear-gradient(
+      145.61deg,
+      rgba(255, 96, 49, 0.6) 15.14%,
+      rgba(249, 168, 14, 0.6) 93.39%
+    );
+    border-radius: 50%;
+    border: 6px solid #ffefde;
+    z-index: 10;
+  }
+  .services_button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-5%);
+  }
+  .Cat_width {
+    max-width: 327px;
+  }
+}
+@media (min-width: 992px) {
+  .border_dog {
+    outline: 5px solid #ffefde;
+    outline-offset: 50px;
+  }
+  .Cat_width {
+    max-width: 410px;
+  }
+  .hero_cat_position {
+    left: 0;
+    top: 100px;
+  }
+  .dotSquare {
+    transform: translate(100%, 15%);
+  }
+  .gap_147 {
+    gap: 65px;
+  }
+  .gap_20 {
+    gap: 20px;
+  }
+  .orange_plus {
+    left: 17%;
+    bottom: 4%;
+  }
+  .gap_56 {
+    gap: 56px;
+  }
+  /* Facilities Lines */
+  .facilites_afterLine::after {
+    content: "";
+    position: absolute;
+    border-bottom: 5px solid #ffefde;
+    width: 100%;
+    bottom: -24%;
+    left: 0;
+  }
+  .facilites_beforeLine::before {
+    content: "";
+    position: absolute;
+    border-bottom: 5px solid #ffefde;
+    width: 100%;
+    bottom: -24%;
+    right: 0;
+  }
+
+  .facilites_circle::after {
+    content: "";
+    position: absolute;
+    left: -16px;
+    bottom: -34px;
+    width: 26px;
+    height: 25px;
+    background: linear-gradient(
+      145.61deg,
+      rgba(255, 96, 49, 0.6) 15.14%,
+      rgba(249, 168, 14, 0.6) 93.39%
+    );
+    border-radius: 50%;
+    border: 6px solid #ffefde;
+    z-index: 10;
+  }
+
+  .facilites_circle1::before {
+    content: "";
+    position: absolute;
+    right: -16px;
+    bottom: -34px;
+    width: 26px;
+    height: 25px;
+    background: linear-gradient(
+      145.61deg,
+      rgba(255, 96, 49, 0.6) 15.14%,
+      rgba(249, 168, 14, 0.6) 93.39%
+    );
+    border-radius: 50%;
+    border: 6px solid #ffefde;
+    z-index: 10;
+  }
+  .gap_36 {
+    gap: 36px;
+  }
+  .lh_30 {
+    line-height: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .gap_147 {
+    gap: 147px;
+  }
+  .hero_cat_position {
+    left: 0;
+    top: 10px;
+  }
+  .Cat_width {
+    max-width: 486px;
+  }
+
+  /* Facilities Lines */
+  .facilites_afterLine::after {
+    content: "";
+    position: absolute;
+    border-bottom: 5px solid #ffefde;
+    width: 140%;
+    bottom: -74%;
+    left: 0;
+  }
+  .facilites_beforeLine::before {
+    content: "";
+    position: absolute;
+    border-bottom: 5px solid #ffefde;
+    width: 140%;
+    bottom: -74%;
+    right: 0;
+  }
+
+  .facilites_circle::after {
+    content: "";
+    position: absolute;
+    left: -114px;
+    bottom: -86px;
+    width: 26px;
+    height: 25px;
+    background: linear-gradient(
+      145.61deg,
+      rgba(255, 96, 49, 0.6) 15.14%,
+      rgba(249, 168, 14, 0.6) 93.39%
+    );
+    border-radius: 50%;
+    border: 6px solid #ffefde;
+    z-index: 10;
+  }
+
+  .facilites_circle1::before {
+    content: "";
+    position: absolute;
+    right: -114px;
+    bottom: -86px;
+    width: 26px;
+    height: 25px;
+    background: linear-gradient(
+      145.61deg,
+      rgba(255, 96, 49, 0.6) 15.14%,
+      rgba(249, 168, 14, 0.6) 93.39%
+    );
+    border-radius: 50%;
+    border: 6px solid #ffefde;
+    z-index: 10;
+  }
+}
+
+@media (min-width: 1350px) {
+  .Cat_width {
+    max-width: 520px;
+  }
 }
