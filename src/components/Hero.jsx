@@ -10,18 +10,19 @@ import cat from '../assets/img/png/hero-cat.png'
 import dog from '../assets/img/png/hero-dog.png'
 import dogFoot from "../assets/img/png/dog_foot.png";
 import daniel from "../assets/img/png/Daniel.png";
+import circles from '../assets/img/png/three_circles.png'
+import dogFootPosition from '../assets/img/png/sec1_dogFoot.png'
 
 const Hero = () => {
   return (
     <div>
-      <section className=" position-relative pb-4">
-        <div className="  hero_cat_position Cat_width me-5 me-md-0 pb-5 pb-md-0">
+      <section className=" position-relative pb-4 overflow_X_hidden">
+        <div>
+          <img src={dogFootPosition} alt="img" />
+        </div>
+        <div className="  hero_cat_position Cat_width me-5 me-md-0 pb-5 pb-md-0 z_3">
           <div className="position-relative me-4 me-md-0">
-            <img
-              className="w-100 cat_hero"
-              src={cat}
-              alt="img"
-            />
+            <img className="w-100 cat_hero" src={cat} alt="img" />
             <img
               className=" position-absolute w_58   end-0 bottom-0 hero_dog"
               src={dog}
@@ -33,7 +34,24 @@ const Hero = () => {
           <Row className="py-sm-5 pt-5">
             <Col></Col>
             <Col md={7}>
-              <div className="ps-md-5">
+              <div className="ps-md-5 position-relative ">
+                <div className="position-absolute green_star d-sm-block d-none ">
+                  <svg
+                    width="39"
+                    height="39"
+                    viewBox="0 0 39 39"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19.5 0L22.3956 16.6044L39 19.5L22.3956 22.3956L19.5 39L16.6044 22.3956L0 19.5L16.6044 16.6044L19.5 0Z"
+                      fill="#5BD6E2"
+                    />
+                  </svg>
+                </div>
+                <div className=" position-absolute three_cirlces d-lg-block d-none">
+                  <img src={circles} alt="img" />
+                </div>
                 <h2 className="fw_400 fs_55 clr_darkblue ff_slackey pb-lg-4 mb-lg-2 mb-3">
                   We take care of your pet and help them to grow
                 </h2>
