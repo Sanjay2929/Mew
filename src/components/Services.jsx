@@ -11,6 +11,7 @@ import redArrow from "../assets/img/png/red_arrow.png";
 import blueArrow from "../assets/img/png/blue_arrow.png";
 import yellowArrow from "../assets/img/png/yellow_arrow.png";
 import greenArrow from "../assets/img/png/green_arrow.png";
+import Btnred from './Btnred';
 
 const Services = () => {
      var settings1 = {
@@ -77,8 +78,11 @@ const Services = () => {
               you will like it. It’s our promise.
             </p>
           </div>
-          <Slider {...settings1} className="py-1">
-            <div className="pb-5 d-flex justify-content-center">
+          <Slider {...settings1} className="pt-1 pb-5">
+            <div
+              className="pb-5 d-flex justify-content-center"
+              data-aos="flip-left"
+            >
               <div className="d-flex flex-column align-items-center  services_slider max_w_250">
                 <img className="mb-3" src={injection} alt="img" />
                 <h4 className="fw_400 fs_20 ff_slackey clr_gray pt-3">
@@ -89,7 +93,11 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="pt-5 d-flex justify-content-center">
+            <div
+              className="pt-5 d-flex justify-content-center"
+              data-aos="flip-left"
+              data-aos-delay="300"
+            >
               <div className="d-flex flex-column align-items-center  services_slider max_w_250">
                 <img className="mb-3" src={serviceCat} alt="img" />
                 <h4 className="fw_400 fs_20 ff_slackey clr_gray pt-3">
@@ -100,7 +108,11 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="pb-5 d-flex justify-content-center">
+            <div
+              className="pb-5 d-flex justify-content-center"
+              data-aos="flip-left"
+              data-aos-delay="600"
+            >
               <div className="d-flex flex-column align-items-center  services_slider max_w_250">
                 <img className="mb-3" src={vetDoctor} alt="img" />
                 <h4 className="fw_400 fs_20 ff_slackey clr_gray pt-3">
@@ -111,7 +123,11 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="pt-5 d-flex justify-content-center">
+            <div
+              className="pt-5 d-flex justify-content-center"
+              data-aos="flip-left"
+              data-aos-delay="900"
+            >
               <div className="d-flex flex-column align-items-center  services_slider max_w_250">
                 <img className="mb-3" src={cleaning} alt="img" />
                 <h4 className="fw_400 fs_20 ff_slackey clr_gray pt-3">
@@ -124,8 +140,8 @@ const Services = () => {
             </div>
           </Slider>
           <div className="d-flex  pt-sm-4 align-items-center gap_72  services_button justify-content-center justify-content-md-start">
-            <OrangeButton />
-            <div  className=" d-flex gap_15 ">
+            <Btnred redtext="Learn More" />
+            <div className=" d-flex gap_15 ">
               <img src={redArrow} alt="arrow" />
               <img src={blueArrow} alt="arrow" />
               <img src={yellowArrow} alt="arrow" />

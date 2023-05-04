@@ -13,10 +13,16 @@ import Decodblog from './components/Decodblog';
 import OurGroomers from './components/OurGroomers';
 import Preloader from './components/Preloader';
 import Facilities from './components/Facilities';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function App() {
+    useEffect(() => {
+        AOS.init();
+      }, [])
   return (
-    <div className='bg_body'>
+    <div className='bg_body overflow_X_hidden'>
       <Preloader/>
       <Navbar />
       <Hero />  

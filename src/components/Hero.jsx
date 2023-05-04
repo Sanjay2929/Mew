@@ -107,7 +107,12 @@ const Hero = () => {
           <Row className="align-items-end  pt-4 mt-3">
             <Col xs={12} md={7}>
               <Row className="data_orange_linear ps-sm-4 px-2 py-3 ">
-                <Col xs={4} className="py-md-5 py-3 d-flex  flex-column">
+                <Col
+                  xs={4}
+                  className="py-md-5 py-3 d-flex  flex-column"
+                  data-aos="fade-right"
+                  data-aos-delay="300"
+                >
                   <h3 className="ff_poppins fw_400 fs_18 mb-md-3 clr_white">
                     Adopted
                   </h3>
@@ -115,7 +120,12 @@ const Hero = () => {
                     2500+
                   </h4>
                 </Col>
-                <Col xs={4} className="py-md-5 py-3 d-flex  flex-column">
+                <Col
+                  xs={4}
+                  className="py-md-5 py-3 d-flex  flex-column"
+                  data-aos="fade-right"
+                  data-aos-delay="600"
+                >
                   <h3 className="ff_poppins fw_400 fs_18 mb-md-3 clr_white">
                     Customers
                   </h3>
@@ -123,7 +133,12 @@ const Hero = () => {
                     1850+
                   </h4>
                 </Col>
-                <Col xs={4} className="py-md-5 py-3 d-flex  flex-column">
+                <Col
+                  xs={4}
+                  className="py-md-5 py-3 d-flex  flex-column"
+                  data-aos="fade-right"
+                  data-aos-delay="900"
+                >
                   <h3 className="ff_poppins fw_400 fs_18 mb-md-3 clr_white">
                     Testimonials
                   </h3>
@@ -134,7 +149,11 @@ const Hero = () => {
               </Row>
             </Col>
             <Col md={5} xs={12} className="Green_hero_bg pad_31_34">
-              <div className="px-lg-4">
+              <div
+                className="px-lg-4"
+                data-aos="fade-left"
+                data-aos-delay="800"
+              >
                 <p className="fw_500 fs_16 ff_poppins clr_white lh_28 mb-lg-3 mb-0">
                   Lorem ipsum dolor sit amet, consectetur ipcing elit, sed do
                   eiusmod tempor incididu ut labore et quis nostrud sed do eius

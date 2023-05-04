@@ -7,18 +7,27 @@ import Plus from '../assets/img/png/plus.png'
 import orangePlus from '../assets/img/png/orangePlus.png'
 import wLine from '../assets/img/png/sec2_wLine.png'
 import telephone from '../assets/img/png/telephone.png'
+import Btnred from "./Btnred";
 
 const Appointment = () => {
   return (
     <div>
       <section>
-        <Container className="py--sm-5 ">
+        <Container className="py-sm-5 mb-md-4">
           <Row className="align-items-center py-5 flex-wrap-reverse">
             <Col md={6}>
-              <h3 className="ff_slackey fw_400 fs_45 clr_darkblue pb-lg-4 pb-2">
+              <h3
+                className="ff_slackey fw_400 fs_45 clr_darkblue pb-lg-4 pb-2"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
                 Lets book a call and stay connected
               </h3>
-              <div className="d-flex align-items-center gap_36 pb-4 justify-content-xl-start justify-content-between">
+              <div
+                className="d-flex align-items-center gap_36 pb-4 justify-content-xl-start justify-content-between"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
                 <div className="d-flex align-items-center gap_20 ">
                   <svg
                     width="24"
@@ -62,14 +71,20 @@ const Appointment = () => {
                   </h4>
                 </div>
               </div>
-              <p className="fw_400 fs_16 lh_30 ff_poppins clr_gray py-lg-3 ">
+              <p
+                className="fw_400 fs_16 lh_30 ff_poppins clr_gray py-lg-3 "
+                data-aos="zoom-in"
+                data-aos-delay="500"
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim velit esse cillum dolore eu fugiat nulla pariatur.
               </p>
-              <div className=" d-flex align-items-lg-center gap_29 flex-lg-row flex-md-column flex-row">
-                <OrangeButton />
-                <div className="d-flex align-items-center ">
+              <div className=" d-flex align-items-lg-center gap_29 flex-lg-row flex-md-column flex-sm-row flex-column">
+                <div className="max_w_180  mt-3">
+                  <Btnred redtext="Book a Schedule" />
+                </div>
+                <div className="d-flex align-items-center mt-2">
                   <img src={telephone} alt="img" />
                   <a className="mb-0 fw_500 fs_18 ff_poppins clr_48" href="#">
                     Emergency&nbsp;Call
@@ -78,7 +93,11 @@ const Appointment = () => {
               </div>
             </Col>
             <Col className=" pb-md-0 pb-5">
-              <div className="ps-xl-5 position-relative">
+              <div
+                className="ps-xl-5 position-relative"
+                data-aos="zoom-out"
+                data-aos-delay="300"
+              >
                 <img className="w-100" src={Doctor} alt="img" />
                 <img
                   className="top-0 start-0 position-absolute dotSquare"

@@ -24,7 +24,10 @@ const Facilities = () => {
           <Row className="align-items-center justify-content-md-between justify-content-center py-5 mt-3 mb-4">
             <Col md={4} xl={3} xs={10} className=" ">
               <div className="d-flex flex-column justify-content-between gap_147 pe-lg-4">
-                <div className=" pe-lg-3 facilites_afterLine position-relative facilites_circle1">
+                <div
+                  className=" pe-lg-3 facilites_afterLine position-relative facilites_circle1"
+                  data-aos="fade-right"
+                >
                   <h3 className="fw_400 fs_22 pb-lg-3 text-md-start text-center pb-2 mb-0 clr_darkblue ff_slackey">
                     Feed Training
                   </h3>
@@ -32,7 +35,11 @@ const Facilities = () => {
                     Ut enim ad minim velit esse cillum dolore eu fugiat..
                   </p>
                 </div>
-                <div className=" pe-lg-3 facilites_afterLine position-relative facilites_circle1">
+                <div
+                  className=" pe-lg-3 facilites_afterLine position-relative facilites_circle1"
+                  data-aos="fade-right"
+                  data-aos-delay="200"
+                >
                   <h3 className="fw_400 fs_22 pb-lg-3 text-md-start text-center pb-2 mb-0 clr_darkblue ff_slackey">
                     Health test
                   </h3>
@@ -40,7 +47,11 @@ const Facilities = () => {
                     tempor incididunt ut labore et dolore magna aliqua...
                   </p>
                 </div>
-                <div className=" pe-lg-3">
+                <div
+                  className=" pe-lg-3"
+                  data-aos="fade-right"
+                  data-aos-delay="400"
+                >
                   <h3 className="fw_400 fs_22 pb-lg-3 text-md-start text-center pb-2 mb-0 clr_darkblue ff_slackey">
                     Vaccination
                   </h3>
@@ -61,7 +72,7 @@ const Facilities = () => {
             </Col>
             <Col md={4} xl={3} xs={10}>
               <div className="d-flex flex-column ps-lg-4 ps-2 gap_147">
-                <div className="ps-lg-3 facilites_beforeLine facilites_circle position-relative">
+                <div className="ps-lg-3 facilites_beforeLine facilites_circle position-relative" data-aos="fade-left">
                   <h3 className="fw_400 fs_22 pb-lg-3 text-md-start text-center pb-2 mb-0 clr_darkblue ff_slackey">
                     Overnight Care
                   </h3>
@@ -69,7 +80,8 @@ const Facilities = () => {
                     Ut enim ad minim velit esse cillum dolore eu fugiat..
                   </p>
                 </div>
-                <div className="ps-lg-3 facilites_beforeLine position-relative facilites_circle">
+                <div className="ps-lg-3 facilites_beforeLine position-relative facilites_circle" data-aos="fade-left"
+                  data-aos-delay="400">
                   <h3 className="fw_400 fs_22 pb-lg-3 text-md-start text-center pb-2 mb-0 clr_darkblue ff_slackey">
                     Medical Care
                   </h3>
@@ -77,7 +89,8 @@ const Facilities = () => {
                     tempor incididunt ut labore et dolore magna aliqua...
                   </p>
                 </div>
-                <div className="ps-lg-3">
+                <div className="ps-lg-3" data-aos="fade-left"
+                  data-aos-delay="200">
                   <h3 className="fw_400 fs_22 pb-lg-3 text-md-start text-center pb-2 mb-0 clr_darkblue ff_slackey">
                     Traning Facility
                   </h3>

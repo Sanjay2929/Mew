@@ -19,7 +19,7 @@ const BackToTop = () => {
         {backTop ? (
           <div
             onClick={moveToTop}
-            className=" btn-primary position-fixed bottom-0 end-0 me-4 mb-4"
+            className=" btn-primary position-fixed bottom-0 end-0 me-sm-4 mb-sm-4 me-2 mb-2"
           >
             <TbArrowBigUpLines />
           </div>
