@@ -91,12 +91,16 @@
 .html .body {
   overflow-x: hidden;
 }
-.overflow_X_hidden{
+.overflow_X_hidden {
   overflow-x: hidden;
 }
 .three_cirlces {
   right: -82px;
   bottom: 41px;
+}
+.dog_foot {
+  left: 136px;
+  bottom: 282px;
 }
 .clr_black {
   color: var(--clr-black) !important;

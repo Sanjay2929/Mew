@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <div>
       <section className=" position-relative pb-4 overflow_X_hidden">
-        <div>
+        <div className=" position-absolute dog_foot d-none d-md-block">
           <img src={dogFootPosition} alt="img" />
         </div>
         <div className="  hero_cat_position Cat_width me-5 me-md-0 pb-5 pb-md-0 z_3">

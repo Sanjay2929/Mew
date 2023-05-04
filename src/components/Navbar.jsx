@@ -14,7 +14,8 @@ const Navbar = () => {
   }
   return (
     <>
-      <Nav>
+      <Nav className=" overflow_X_hidden
+      ">
         <Container className="py-3">
           <div className="d-flex align-items-center justify-content-between">
             <h1 className=" ff_slackey fs_27 fw_400 mb-0">Mew</h1>
@@ -32,22 +33,34 @@ const Navbar = () => {
             >
               <ul className="nav d-flex flex-sm-row flex-column align-items-center mb-0 w-100 justify-content-center ps-0 gap_55">
                 <li>
-                  <a className="fw_400 fs_16 ff_poppins clr_blueGray" href="#home">
+                  <a
+                    className="fw_400 fs_16 ff_poppins clr_blueGray"
+                    href="#home"
+                  >
                     Home
                   </a>
                 </li>
                 <li>
-                  <a className="fw_400 fs_16 ff_poppins clr_blueGray" href="#about">
+                  <a
+                    className="fw_400 fs_16 ff_poppins clr_blueGray"
+                    href="#about"
+                  >
                     About
                   </a>
                 </li>
                 <li>
-                  <a className="fw_400 fs_16 ff_poppins clr_blueGray" href="#services">
+                  <a
+                    className="fw_400 fs_16 ff_poppins clr_blueGray"
+                    href="#services"
+                  >
                     Services
                   </a>
                 </li>
                 <li>
-                  <a className="fw_400 fs_16 ff_poppins clr_blueGray" href="#facilities">
+                  <a
+                    className="fw_400 fs_16 ff_poppins clr_blueGray"
+                    href="#facilities"
+                  >
                     Facilities
                   </a>
                 </li>
