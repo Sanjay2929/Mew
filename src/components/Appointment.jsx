@@ -86,7 +86,7 @@ const Appointment = () => {
                 </div>
                 <div className="d-flex align-items-center mt-2">
                   <img src={telephone} alt="img" />
-                  <a className="mb-0 fw_500 fs_18 ff_poppins clr_48" href="#">
+                  <a className="mb-0 fw_500 fs_18 ff_poppins clr_48 under_line position-relative" href="#">
                     Emergency&nbsp;Call
                   </a>
                 </div>

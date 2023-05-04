@@ -14,6 +14,7 @@ import greenArrow from "../assets/img/png/green_arrow.png";
 import Btnred from './Btnred';
 
 const Services = () => {
+  const first = React.useRef();
      var settings1 = {
        dots: false,
        infinite: true,
@@ -33,21 +34,21 @@ const Services = () => {
            },
          },
          {
-           breakpoint: 1200,
+           breakpoint: 1199,
            settings: {
              slidesToShow: 3,
              slidesToScroll: 1,
            },
          },
          {
-           breakpoint: 992,
+           breakpoint: 991,
            settings: {
              slidesToShow: 2.5,
              slidesToScroll: 1,
            },
          },
          {
-           breakpoint: 768,
+           breakpoint: 767,
            settings: {
              slidesToShow: 1.8,
              slidesToScroll: 1,
@@ -78,14 +79,14 @@ const Services = () => {
               you will like it. It’s our promise.
             </p>
           </div>
-          <Slider {...settings1} className="pt-1 pb-5">
+          <Slider {...settings1} ref={first} className="pt-1 pb-5">
             <div
               className="pb-5 d-flex justify-content-center"
               data-aos="flip-left"
             >
               <div className="d-flex flex-column align-items-center  services_slider max_w_250">
                 <img className="mb-3" src={injection} alt="img" />
-                <h4 className="fw_400 fs_20 ff_slackey clr_gray pt-3">
+                <h4 className="fw_400 fs_20 position-relative ff_slackey clr_gray pt-3">
                   Vaccination
                 </h4>
                 <p className="mb-0 fw_400 fs_14 ff_poppins clr_gray lh_24 text-center">
@@ -100,7 +101,7 @@ const Services = () => {
             >
               <div className="d-flex flex-column align-items-center  services_slider max_w_250">
                 <img className="mb-3" src={serviceCat} alt="img" />
-                <h4 className="fw_400 fs_20 ff_slackey clr_gray pt-3">
+                <h4 className="fw_400 fs_20 position-relative ff_slackey clr_gray pt-3">
                   Pet Grooming
                 </h4>
                 <p className="mb-0 fw_400 fs_14 ff_poppins clr_gray lh_24 text-center">
@@ -115,7 +116,7 @@ const Services = () => {
             >
               <div className="d-flex flex-column align-items-center  services_slider max_w_250">
                 <img className="mb-3" src={vetDoctor} alt="img" />
-                <h4 className="fw_400 fs_20 ff_slackey clr_gray pt-3">
+                <h4 className="fw_400 fs_20 position-relative ff_slackey clr_gray pt-3">
                   Veterinary
                 </h4>
                 <p className="mb-0 fw_400 fs_14 ff_poppins clr_gray lh_24 text-center">
@@ -130,7 +131,7 @@ const Services = () => {
             >
               <div className="d-flex flex-column align-items-center  services_slider max_w_250">
                 <img className="mb-3" src={cleaning} alt="img" />
-                <h4 className="fw_400 fs_20 ff_slackey clr_gray pt-3">
+                <h4 className="fw_400 fs_20 position-relative ff_slackey clr_gray pt-3">
                   Cleaning
                 </h4>
                 <p className="mb-0 fw_400 fs_14 ff_poppins clr_gray lh_24 text-center">
@@ -141,7 +142,10 @@ const Services = () => {
           </Slider>
           <div className="d-flex  pt-sm-4 align-items-center gap_72  services_button justify-content-center justify-content-md-start">
             <Btnred redtext="Learn More" />
-            <div className=" d-flex gap_15 ">
+            <div
+              className=" d-flex gap_15 "
+              onClick={() => first.current.slickNext()}
+            >
               <img src={redArrow} alt="arrow" />
               <img src={blueArrow} alt="arrow" />
               <img src={yellowArrow} alt="arrow" />

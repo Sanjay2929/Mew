@@ -6,7 +6,7 @@ const Facilities = () => {
   return (
     <div>
       <section>
-        <Container className="py--sm-5">
+        <Container className="py-sm-5">
           <Row className=" align-items-start justify-content-center py-5 mt-2">
             <Col xl={4} md={6}>
               <h3 className=" ff_slackey fw_400 fs_45 clr_darkblue lh_55 mb-0">
@@ -21,7 +21,7 @@ const Facilities = () => {
               </p>
             </Col>
           </Row>
-          <Row className="align-items-center justify-content-md-between justify-content-center py-5 mt-3 mb-4">
+          <Row className="align-items-center justify-content-md-between justify-content-center py-5 mt-3 mb-md-5 mb-4">
             <Col md={4} xl={3} xs={10} className=" ">
               <div className="d-flex flex-column justify-content-between gap_147 pe-lg-4">
                 <div
@@ -64,7 +64,7 @@ const Facilities = () => {
             <Col md={4} xs={8}>
               <div className="p-lg-2 py-sm-5 py-4 ">
                 <img
-                  className="w-100 br_300 border_dog"
+                  className="w-100 br_300 border_dog hover_facilities_dog"
                   src={facilitiesDog}
                   alt="dog"
                 />

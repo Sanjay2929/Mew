@@ -12,6 +12,7 @@ import dogFoot from "../assets/img/png/dog_foot.png";
 import daniel from "../assets/img/png/Daniel.png";
 import circles from '../assets/img/png/three_circles.png'
 import dogFootPosition from '../assets/img/png/sec1_dogFoot.png'
+import smily from "../assets/img/png//smily.png";
 
 const Hero = () => {
   return (
@@ -21,7 +22,7 @@ const Hero = () => {
           <img src={dogFootPosition} alt="img" />
         </div>
         <div className="  hero_cat_position Cat_width me-5 me-md-0 pb-5 pb-md-0 z_3">
-          <div className="position-relative me-4 me-md-0">
+          <div className="position-relative me-4 me-md-0 hover_dog">
             <img className="w-100 cat_hero" src={cat} alt="img" />
             <img
               className=" position-absolute w_58   end-0 bottom-0 hero_dog"
@@ -53,7 +54,10 @@ const Hero = () => {
                   <img src={circles} alt="img" />
                 </div>
                 <h2 className="fw_400 fs_55 clr_darkblue ff_slackey pb-lg-4 mb-lg-2 mb-3">
-                  We take care of your pet and help them to grow
+                  We take care of your pet and help them to grow{" "}
+                  <span className="max_W_50">
+                    <img className="w-100 max_W_50" src={smily} alt="img" />
+                  </span>
                 </h2>
                 <p className="fw_500 fs_16 ff_poppins clr_gray max_w_482 pb-lg-5 mb-3">
                   Best pets are waiting for adoption. Find out the the perfect
@@ -109,7 +113,7 @@ const Hero = () => {
               <Row className="data_orange_linear ps-sm-4 px-2 py-3 ">
                 <Col
                   xs={4}
-                  className="py-md-5 py-3 d-flex  flex-column"
+                  className="py-md-5 py-3 d-flex  flex-column after_line_hero position-relative"
                   data-aos="fade-right"
                   data-aos-delay="300"
                 >
@@ -122,7 +126,7 @@ const Hero = () => {
                 </Col>
                 <Col
                   xs={4}
-                  className="py-md-5 py-3 d-flex  flex-column"
+                  className="py-md-5 py-3 d-flex  flex-column after_line_hero position-relative"
                   data-aos="fade-right"
                   data-aos-delay="600"
                 >

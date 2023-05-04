@@ -18,6 +18,12 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
 function App() {
+    setTimeout(() => {
+     document.body.classList.add("overflow_hidden");
+    document.getElementById("none").style.display = "none";
+    document.body.classList.remove("overflow_hidden");
+  }, 3000);
+
     useEffect(() => {
         AOS.init();
       }, [])

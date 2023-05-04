@@ -45,58 +45,94 @@ const OurGroomers = () => {
     };
   return (
     <>
-        <section className='bg_FFF4EA pb-4 overflow_X_hidden'>
-            <Container className='py-5'>
-                <div className='position-relative'>
-                    <div className='position-absolute start-0 top-0'>
-                    <svg width="60" height="58" viewBox="0 0 60 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M35.4654 16.9721L55.0434 19.6842L53.1981 0.000232455L57.2176 4.19992L59.0691 23.8779L39.4849 21.1718L41.3364 40.8498L21.7522 38.1437L23.6037 57.8217L4.02574 55.1096L4.02547 55.1217L0.00597006 50.922L19.578 53.6279L17.7327 33.944L37.3107 36.656L35.4654 16.9721Z" fill="#5BD6E2"/>
-                    </svg>
-                    </div>
-                    <div className='position-absolute end-0 top_neg_15'>
-                        <img src={circle} alt="circle" className='w-75'/>
-                    </div>
-                    <p className='ff_Slackey fw_400 fs_45 cl_lightgray text-center mt-4'>Our Groomers</p>
+      <section className="bg_FFF4EA pb-4 overflow_X_hidden">
+        <Container className="py-5">
+          <div className="position-relative" data-aos="fade-right">
+            <div className="position-absolute start-0 top-0 d-sm-block d-none zig_zagLine">
+              <svg
+                width="60"
+                height="58"
+                viewBox="0 0 60 58"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M35.4654 16.9721L55.0434 19.6842L53.1981 0.000232455L57.2176 4.19992L59.0691 23.8779L39.4849 21.1718L41.3364 40.8498L21.7522 38.1437L23.6037 57.8217L4.02574 55.1096L4.02547 55.1217L0.00597006 50.922L19.578 53.6279L17.7327 33.944L37.3107 36.656L35.4654 16.9721Z"
+                  fill="#5BD6E2"
+                />
+              </svg>
+            </div>
+            <div className="position-absolute end-0 top_neg_15 d-lg-block d-none">
+              <img src={circle} alt="circle" className="w-75" />
+            </div>
+            <p className="ff_Slackey fw_400 fs_45 cl_lightgray text-center mt-4">
+              Our Groomers
+            </p>
+          </div>
+          <Slider {...ourgroomers} className="py-5 mb-5 ourgromers_slider">
+            <div className="px-2 py-3" data-aos="flip-right">
+              <div className="mt-5 pt-5"></div>
+              <div className="card_ourgroomers">
+                <div className="border_radiusimg overflow-hidden">
+                  {" "}
+                  <img src={Adam} alt="Adam Smith" className="adam_scale" />
                 </div>
-                <Slider {...ourgroomers} className='py-5 mb-5 ourgromers_slider'>
-            <div className='px-2 py-3'>
-                <div className='mt-5 pt-5'></div>
-                <div className='card_ourgroomers'>
-                    <img src={Adam} alt="Adam Smith" className='border_radiusimg'/>
-                    <p className='ff_Poppins fw_600 fs_20 cl_lightgray pt-4 mt-3'>Adam Smith</p>
-                    <p className='ff_Poppins fw_400 fs_16 cl_65668 mb-4 pb-3'>Veterinarian</p>
+                <p className="ff_Poppins fw_600 fs_20 cl_lightgray pt-4 mt-3">
+                  Adam Smith
+                </p>
+                <p className="ff_Poppins fw_400 fs_16 cl_65668 mb-4 pb-3">
+                  Veterinarian
+                </p>
+              </div>
+            </div>
+            <div className="px-2 py-3" data-aos="flip-right">
+              <div className="mt-5 pt-5"></div>
+              <div className="card_ourgroomers">
+                <div className="border_radiusimg overflow-hidden">
+                  <img src={Morgan} alt="Morgan" className="adam_scale" />
                 </div>
-            </div>        
-            <div className='px-2 py-3'>
-                <div className='mt-5 pt-5'></div>
-                <div className='card_ourgroomers'>
-                    <img src={Morgan} alt="Morgan" className='border_radiusimg'/>
-                    <p className='ff_Poppins fw_600 fs_20 cl_lightgray pt-4 mt-3'>Morgan Mark</p>
-                    <p className='ff_Poppins fw_400 fs_16 cl_65668 mb-4 pb-3'>Trainer</p>
+                <p className="ff_Poppins fw_600 fs_20 cl_lightgray pt-4 mt-3">
+                  Morgan Mark
+                </p>
+                <p className="ff_Poppins fw_400 fs_16 cl_65668 mb-4 pb-3">
+                  Trainer
+                </p>
+              </div>
+            </div>
+            <div className="px-2 py-3" data-aos="flip-right">
+              <div className="mt-5 pt-5"></div>
+              <div className="card_ourgroomers">
+                <div className="border_radiusimg overflow-hidden">
+                  <img src={Ana} alt="Ana" className="adam_scale" />
                 </div>
-            </div>        
-            <div className='px-2 py-3'>
-                <div className='mt-5 pt-5'></div>
-                <div className='card_ourgroomers'>
-                    <img src={Ana} alt="Ana" className='border_radiusimg'/>
-                    <p className='ff_Poppins fw_600 fs_20 cl_lightgray pt-4 mt-3'>Ana Fargun</p>
-                    <p className='ff_Poppins fw_400 fs_16 cl_65668 mb-4 pb-3'>Trainer</p>
+                <p className="ff_Poppins fw_600 fs_20 cl_lightgray pt-4 mt-3">
+                  Ana Fargun
+                </p>
+                <p className="ff_Poppins fw_400 fs_16 cl_65668 mb-4 pb-3">
+                  Trainer
+                </p>
+              </div>
+            </div>
+            <div className="px-2 py-3" data-aos="flip-right">
+              <div className="mt-5 pt-5"></div>
+              <div className="card_ourgroomers">
+                <div className="border_radiusimg overflow-hidden">
+                  <img src={Mouran} alt="Mouran" className="adam_scale" />
                 </div>
-            </div>        
-            <div className='px-2 py-3'>
-                <div className='mt-5 pt-5'></div>
-                <div className='card_ourgroomers'>
-                    <img src={Mouran} alt="Mouran" className='border_radiusimg'/>
-                    <p className='ff_Poppins fw_600 fs_20 cl_lightgray pt-4 mt-3'>Mouran Maz</p>
-                    <p className='ff_Poppins fw_400 fs_16 cl_65668 mb-md-4 pb-3'>Care Taker</p>
-                </div>
-            </div>        
-        </Slider>
-        <div className='pb-md-5 text-center'>
-            <Btnred redtext="View Team"/>
-        </div>
-            </Container>
-        </section>
+                <p className="ff_Poppins fw_600 fs_20 cl_lightgray pt-4 mt-3">
+                  Mouran Maz
+                </p>
+                <p className="ff_Poppins fw_400 fs_16 cl_65668 mb-md-4 pb-3">
+                  Care Taker
+                </p>
+              </div>
+            </div>
+          </Slider>
+          <div className="pb-md-5 text-center">
+            <Btnred redtext="View Team" />
+          </div>
+        </Container>
+      </section>
     </>
   );
 }
