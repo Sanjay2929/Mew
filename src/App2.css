@@ -10,15 +10,6 @@
 }
 
 :root {
-    --fs-14: 14px;
-    --fs-16: 16px;
-    --fs-18: 18px;
-    --fs-20: 20px;
-    --fs-22: 22px;
-    --fs-27: 27px;
-    --fs-35: 35px;
-    --fs-45: 45px;
-    --fs-55: 55px;
     --color-white: white;
     --color-bluelight: #5E6085;
     --color-brownlight: #FFFAF5;
@@ -246,20 +237,6 @@
 @media (max-width:768px) {
     .saasbusines {
         padding: 12px;
-    }
-}
-
-@media (max-width:576px) {
-    :root {
-        --fs-14: 14px;
-        --fs-16: 16px;
-        --fs-18: 18px;
-        --fs-20: 20px;
-        --fs-22: 22px;
-        --fs-27: 27px;
-        --fs-35: 35px;
-        --fs-45: 35px;
-        --fs-55: 55px;
     }
 }
 
