@@ -14,7 +14,7 @@ const Decodblog = () => {
     };
   return (
     <>
-        <section className='bg_brownlight py-5'>
+        <section className='bg_brownlight py-5 overflow_X_hidden'>
             <Container className='my-5 pb-sm-5 container'>
                 <Row>
                     <Col lg={5}>

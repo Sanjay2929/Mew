@@ -45,7 +45,7 @@ const OurGroomers = () => {
     };
   return (
     <>
-        <section className='bg_FFF4EA pb-4'>
+        <section className='bg_FFF4EA pb-4 overflow_X_hidden'>
             <Container className='py-5'>
                 <div className='position-relative'>
                     <div className='position-absolute start-0 top-0'>
