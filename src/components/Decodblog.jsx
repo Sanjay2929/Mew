@@ -36,14 +36,14 @@ const Decodblog = () => {
                                 <div className='d-flex gap-3 pt-xl-4 pb-2'>
                                     <div className='redcricle'>
                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12.9467 7.88379L2.82078 7.88379" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M6.9632 12.0261L2.82075 7.88368L6.9632 3.74124" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M12.9467 7.88379L2.82078 7.88379" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                                            <path d="M6.9632 12.0261L2.82075 7.88368L6.9632 3.74124" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                                         </svg>
                                     </div>
                                     <div className='redcricle'>
                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M2.82071 7.88379L12.9467 7.88379" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M8.80426 3.74146L12.9467 7.8839L8.80426 12.0263" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M2.82071 7.88379L12.9467 7.88379" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                                            <path d="M8.80426 3.74146L12.9467 7.8839L8.80426 12.0263" stroke="white" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
                                         </svg>
                                     </div>
                                 </div>
@@ -59,14 +59,14 @@ const Decodblog = () => {
                                 <div className='d-flex gap-3 pt-xl-4 pb-2'>
                                     <div className='redcricle'>
                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12.9467 7.88379L2.82078 7.88379" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M6.9632 12.0261L2.82075 7.88368L6.9632 3.74124" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M12.9467 7.88379L2.82078 7.88379" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                                            <path d="M6.9632 12.0261L2.82075 7.88368L6.9632 3.74124" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                                         </svg>
                                     </div>
                                     <div className='redcricle'>
                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M2.82071 7.88379L12.9467 7.88379" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M8.80426 3.74146L12.9467 7.8839L8.80426 12.0263" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M2.82071 7.88379L12.9467 7.88379" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                                            <path d="M8.80426 3.74146L12.9467 7.8839L8.80426 12.0263" stroke="white" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
                                         </svg>
                                     </div>
                                 </div>

@@ -6,6 +6,7 @@ import Morgan from "../assets/img/png/Morgan.png"
 import Ana from "../assets/img/png/Ana.png"
 import Mouran from "../assets/img/png/Mouran.png"
 import Btnred from './Btnred';
+import circle from '../assets/img/png/hero-circles.png'
 
 const OurGroomers = () => {
     const ourgroomers = {
@@ -51,6 +52,9 @@ const OurGroomers = () => {
                     <svg width="60" height="58" viewBox="0 0 60 58" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M35.4654 16.9721L55.0434 19.6842L53.1981 0.000232455L57.2176 4.19992L59.0691 23.8779L39.4849 21.1718L41.3364 40.8498L21.7522 38.1437L23.6037 57.8217L4.02574 55.1096L4.02547 55.1217L0.00597006 50.922L19.578 53.6279L17.7327 33.944L37.3107 36.656L35.4654 16.9721Z" fill="#5BD6E2"/>
                     </svg>
+                    </div>
+                    <div className='position-absolute end-0 top_neg_15'>
+                        <img src={circle} alt="circle" className='w-75'/>
                     </div>
                     <p className='ff_Slackey fw_400 fs_45 cl_lightgray text-center mt-4'>Our Groomers</p>
                 </div>
