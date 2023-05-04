@@ -124,6 +124,10 @@
     border-radius: 5px;
 }
 
+.top_neg_15 {
+    top: -15px;
+}
+
 .icon {
     width: 32px;
     height: 32px;
@@ -162,12 +166,42 @@
 .bg_catimg {
     width: 259px;
     height: 327px;
-    background: #5BD6E2;
+    background: #5BD6E2;  
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
+    transition: all 0.2s linear;
 }
+
+.bg_catimg img{
+    transition: all 0.2s linear;
+}
+
+.bg_catimg:hover{
+     background: repeating-linear-gradient(45deg,
+         #5BD6E2,
+         #57ccd6 5%,
+         #3fbcc8 5%,
+         #5BD6E2 10%);
+     background-size: 100px 100px;
+     animation: cat 2s linear infinite;
+}
+
+@keyframes cat {
+    0% {
+        background-position: initial;
+    }
+
+    100% {
+        background-position: 100px 0px;
+    }
+}
+
+.bg_catimg:hover img{
+    transform: scale(0.9);
+}
+
 
 .tranform {
     transform: translateY(-20px);
@@ -225,12 +259,6 @@
 @media (max-width:576px) {
     .bg_catimg {
         width: 100%;
-        height: 327px;
-        background: #5BD6E2;
-        border-radius: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 }
 
@@ -270,5 +298,27 @@
     background: #FF5B2E;
     box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
     border-radius: 10px;
-    padding: 19px 29px;
+    padding: 22px 33px;
+    transition: all .3s linear;
+}
+
+.btn_red:hover{
+    color: black;
+     background: repeating-linear-gradient(45deg,
+         #FF5B2E,
+         #dc5c39 5%,
+         #f36842 5%,
+         #FF5B2E 10%);
+     background-size: 100px 100px;
+     animation: redbtn 2s linear infinite;
+}
+
+@keyframes redbtn {
+    0% {
+        background-position: initial;
+    }
+
+    100% {
+        background-position: 100px 0px;
+    }
 }
