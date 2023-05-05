@@ -855,7 +855,7 @@
   right: 30px !important;
 }
 .hero_dog{
-  transition: all 1s linear;
+  transition: all .5s linear;
 }
 
 .hover_black:hover{
